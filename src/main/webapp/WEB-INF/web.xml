@@ -9,7 +9,7 @@
   <!-- 指定Spring配置文件的位置 -->
   <context-param>
   	<param-name>contextConfigLocation</param-name>
-  	<param-value>classpath:resources/spring-*.xml</param-value>
+  	<param-value>classpath:spring-*.xml</param-value>
   </context-param>
   
   <!-- 注册ServletContext的监听器，用于创建Spring容器，并将容器对象放入到application的域属性空间 -->
@@ -41,7 +41,7 @@
   	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
   	<init-param>
   		<param-name>contextConfigLocation</param-name>
-  		<param-value>classpath:resources/spring-mvc.xml</param-value>
+  		<param-value>classpath:spring-mvc.xml</param-value>
   	</init-param>
   </servlet>
   <servlet-mapping>

@@ -13,12 +13,7 @@
         http://www.springframework.org/schema/tx/spring-tx.xsd
         http://www.springframework.org/schema/aop 
         http://www.springframework.org/schema/aop/spring-aop.xsd">
-	<!-- 
-	<bean id="/test/register.do" class="com.bjpowernode.handlers.MyController">
-		<property name="service" ref="studentService"/>
-	</bean>
-	 -->
-	 <context:component-scan base-package="com.bjpowernode.handlers"/>
+	 <context:component-scan base-package="com.gq.handlers"/>
 </beans>
 
 

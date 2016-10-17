@@ -15,7 +15,7 @@
         http://www.springframework.org/schema/aop/spring-aop.xsd">
 
 	<!-- 注册Service -->
-	<bean id="studentService" class="com.bjpowernode.service.StudentServiceImpl">
+	<bean id="studentService" class="com.gq.service.StudentServiceImpl">
 		<property name="dao" ref="IStudentDao"/>
 	</bean>
 

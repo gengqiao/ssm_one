@@ -4,9 +4,9 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 	<typeAliases>
-		<package name="com.bjpowernode.beans"/>
+		<package name="com.gq.beans"/>
 	</typeAliases>
 	<mappers>
-		<package name="com.bjpowernode.dao"/>
+		<package name="com.gq.dao"/>
 	</mappers>
 </configuration>
